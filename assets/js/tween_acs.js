@@ -1,10 +1,29 @@
 //<//
 
-TweenMax.to(lefty, 5, {
-    y: -1600,
-    // rotation: 100,
-    // fill: "blue"
-});
+//Intro TimeLine//
+
+tl.to(whiteLine, 1, {rotation:180, transformOrigin: "50% 50%"} )
+  .to(pinkRect, 1, {x: -564})
+  .to(lefty, 2, {x:-150})
+  .to(lefty, 1, {x:8})
+  .to(righty, 2, {x:150})
+  .to(righty, 1, {x:-8})
+
+
+//Intro classiquy//
+// tl.to(lefty, 2, {x:-150})
+//   .to(lefty, 1, {x:8})
+// tl2.to(righty, 2, {x:150})
+//     .to(righty, 1, {x:-8})
+
+
+// tl2.to(righty, 2, {x:150})
+//     .to(righty, 1, {x:-8})
+// TweenMax.to(lefty, 2, {
+//     x: -1600,
+//     rotation: 360,
+//     // fill: "blue"
+// });
 
 
 //ACCESS//
@@ -177,8 +196,8 @@ TweenMax.to(L6, 5, {
 
 //>//
 
-TweenMax.to(righty, 5, {
-    y: 1600,
-    // rotation: 100,
+TweenMax.to(righty, 6.5, {
+//     // x: 1600,
+    //     rotation: 100,
     // fill: "blue"
 });

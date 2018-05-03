@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="assets/css/style.css">
+  <!-- CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
 
@@ -13,7 +14,6 @@
 </head>
 
 <body>
-
   <!-- méthode balise svg -->
 
   <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -0.5 400 400" shape-rendering="crispEdges">
@@ -26,7 +26,7 @@
 
 
   <!-- NTS: la méthode balise object, à utiliser quand un groupe d'élèment ne sera pas animé séparément -->
-  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1280px"
+  <svg id="test" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1280px"
     height="800px" viewBox="0 0 1280 800" enable-background="new 0 0 1280 800" xml:space="preserve">
     <g id="Model" display="none">
       <g display="inline">
@@ -81,7 +81,7 @@
       <g class="wl">
         <line  fill="#FCFAFA" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="1089" y1="388" x2="254" y2="388" />
       </g>
-      <rect class="pinkRect" x="736" y="215" fill="#D31E43" width="353" height="172" />
+      <rect class="pinkRect" x="1300" y="215" fill="#D31E43" width="353" height="172" />
       <g>
         <path class="A1 " fill="#FFFFFF" d="M282.929,239.3h21.886l28.182,106.485h-17.838l-6.596-26.1h-31.33l-6.896,26.1h-17.838L282.929,239.3z
 			 M305.714,306.114l-12.292-52.497h-0.3l-12.742,52.497H305.714z" />
@@ -186,7 +186,10 @@
   </object>
   <div class="rotativeSquare"> </div>
 
-  <!--script js-->
+
+
+
+  <!-- JavaScript -->
   <script src="assets/js/var_element.js"></script>
   <script src="assets/js/script.js"></script>
   <script src="assets/js/var_acs.js"></script>

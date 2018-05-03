@@ -1,11 +1,25 @@
+svg.animate path {
+	animation: svg-animate 4s forwards infinite;
+}
+
+
+@keyframes svg-animate {
+	from {}
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
+
 /* body&svg */
 
-body{
+body {
     height: 100%;
     margin: 0;
 }
-*{
-	box-sizing: border-box;
+
+* {
+    box-sizing: border-box;
 }
 
 svg {
@@ -15,132 +29,147 @@ svg {
     padding: 0;
 }
 
-
-
 /* ACCESS */
-.A1{
+
+.A1 {
     opacity: 0;
 }
-.A1_finish{
+
+.A1_finish {
     opacity: 100;
 }
 
-.C2{
+.C2 {
     opacity: 0;
 }
-.C2_finish{
+
+.C2_finish {
     opacity: 100;
 }
 
-.C3{
+.C3 {
     opacity: 0;
 }
-.C3_finish{
+
+.C3_finish {
     opacity: 100;
 }
 
-.E4{
+.E4 {
     opacity: 0;
 }
-.E4_finish{
+
+.E4_finish {
     opacity: 100;
 }
 
-.S5{
+.S5 {
     opacity: 0;
 }
-.S5_finish{
+
+.S5_finish {
     opacity: 100;
 }
 
-.S6{
+.S6 {
     opacity: 0;
 }
-.S6_finish{
+
+.S6_finish {
     opacity: 100;
 }
-
 
 /*CODE*/
-.C1{
+
+.C1 {
     opacity: 0;
 }
-.C1_finish{
+
+.C1_finish {
     opacity: 100;
 }
 
-.O2{
+.O2 {
     opacity: 0;
 }
-.O2_finish{
+
+.O2_finish {
     opacity: 100;
 }
 
-.D3{
+.D3 {
     opacity: 0;
 }
-.D3_finish{
+
+.D3_finish {
     opacity: 100;
 }
 
-.E4bis{
+.E4bis {
     opacity: 0;
 }
-.E4bis_finish{
+
+.E4bis_finish {
     opacity: 100;
 }
 
 /*SCHOOL*/
 
-.S1{
+.S1 {
     opacity: 0;
 }
-.S1_finish{
+
+.S1_finish {
     opacity: 100;
 }
 
-.C2{
+.C2 {
     opacity: 0;
 }
-.C2bis_finish{
+
+.C2bis_finish {
     opacity: 100;
 }
 
-.H3{
+.H3 {
     opacity: 0;
 }
-.H3_finish{
+
+.H3_finish {
     opacity: 100;
 }
 
-.O4{
+.O4 {
     opacity: 0;
 }
-.O4_finish{
+
+.O4_finish {
     opacity: 100;
 }
 
-.O5{
+.O5 {
     opacity: 0;
 }
-.O5_finish{
+
+.O5_finish {
     opacity: 100;
 }
 
-.L6{
+.L6 {
     opacity: 0;
 }
-.L6_finish{
+
+.L6_finish {
     opacity: 100;
 }
 
 /*whiteLine*/
 
-.wl{
+/* .wl{
     opacity: 0;
-}
+} */
 
-.wl_finish{
+.wl_finish {
     opacity: 100;
 }
 
@@ -150,4 +179,11 @@ svg {
     background-color: pink;
     width:25px;
     height: 25px;
+ } */
+
+/* Element */
+
+/* .pinkRect{
+    position: absolute;
+    right: -500px;
  } */

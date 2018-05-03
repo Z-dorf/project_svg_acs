@@ -1,14 +1,19 @@
+// tl3.to(whiteLine, 1, {
+//     rotation:360, transformOrigin: "50% 50%",
+
+// })
+
 TweenMax.to(backGround, 5, {
     // x: -1600,
     // rotation: 100,
     // fill: "blue"
 });
 
-TweenMax.to(pinkRect, 5, {
-    // fill: "blue",
-    x: 600,
-    // rotation: 1500
-})
+// TweenMax.to(pinkRect, 1, {
+//     fill: "blue",
+//     x: -564
+//     rotation: 1500
+// })
 
 
 // TweenMax.to(whiteLine, 5, {
@@ -19,15 +24,9 @@ TweenMax.to(pinkRect, 5, {
 // });
 
 
-TweenMax.to(whiteLine, 5, {
-    css: {
-        className: "wl_finish"
-    },
-    repeat: 10,
-    delay: 0.5,
-    repeatDelay: 0.7,
-    yoyo: true
-})
+
+
+// TweenMax.to(whiteLine, 2, {rotation:360, transformOrigin: "50% 50%"})
 
 // TweenMax.to(whiteLine, 5, {
 //     rotation: 1500,
