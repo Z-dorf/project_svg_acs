@@ -1,10 +1,153 @@
-svg {
-    width: 700px;
-    height: 700px;
+/* body&svg */
+
+body{
+    height: 100%;
+    margin: 0;
+}
+*{
+	box-sizing: border-box;
 }
 
-.rotativeSquare{
+svg {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ACCESS */
+.A1{
+    opacity: 0;
+}
+.A1_finish{
+    opacity: 100;
+}
+
+.C2{
+    opacity: 0;
+}
+.C2_finish{
+    opacity: 100;
+}
+
+.C3{
+    opacity: 0;
+}
+.C3_finish{
+    opacity: 100;
+}
+
+.E4{
+    opacity: 0;
+}
+.E4_finish{
+    opacity: 100;
+}
+
+.S5{
+    opacity: 0;
+}
+.S5_finish{
+    opacity: 100;
+}
+
+.S6{
+    opacity: 0;
+}
+.S6_finish{
+    opacity: 100;
+}
+
+
+/*CODE*/
+.C1{
+    opacity: 0;
+}
+.C1_finish{
+    opacity: 100;
+}
+
+.O2{
+    opacity: 0;
+}
+.O2_finish{
+    opacity: 100;
+}
+
+.D3{
+    opacity: 0;
+}
+.D3_finish{
+    opacity: 100;
+}
+
+.E4bis{
+    opacity: 0;
+}
+.E4bis_finish{
+    opacity: 100;
+}
+
+/*SCHOOL*/
+
+.S1{
+    opacity: 0;
+}
+.S1_finish{
+    opacity: 100;
+}
+
+.C2{
+    opacity: 0;
+}
+.C2bis_finish{
+    opacity: 100;
+}
+
+.H3{
+    opacity: 0;
+}
+.H3_finish{
+    opacity: 100;
+}
+
+.O4{
+    opacity: 0;
+}
+.O4_finish{
+    opacity: 100;
+}
+
+.O5{
+    opacity: 0;
+}
+.O5_finish{
+    opacity: 100;
+}
+
+.L6{
+    opacity: 0;
+}
+.L6_finish{
+    opacity: 100;
+}
+
+/*whiteLine*/
+
+.wl{
+    opacity: 0;
+}
+
+.wl_finish{
+    opacity: 100;
+}
+
+/* Testing */
+
+/* .rotativeSquare{
     background-color: pink;
     width:25px;
     height: 25px;
- }
+ } */
