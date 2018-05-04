@@ -1,8 +1,8 @@
-(function() {
+(function () {
     var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame ||
-    function(callback) {
-        window.setTimeout(callback, 1000 / 60);
-    };
+        function (callback) {
+            window.setTimeout(callback, 1000 / 60);
+        };
     window.requestAnimationFrame = requestAnimationFrame;
 })();
 
@@ -14,8 +14,8 @@ var flakes = [],
     mX = -100,
     mY = -100
 
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
 function snow() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -52,7 +52,7 @@ function snow() {
         ctx.fillStyle = "rgba(255,255,255," + flake.opacity + ")";
         flake.y += flake.velY;
         flake.x += flake.velX;
-            
+
         if (flake.y >= canvas.height || flake.y <= 0) {
             reset(flake);
         }
@@ -103,12 +103,12 @@ function init() {
     snow();
 };
 
-canvas.addEventListener("mousemove", function(e) {
+canvas.addEventListener("mousemove", function (e) {
     mX = e.clientX,
-    mY = e.clientY
+        mY = e.clientY
 });
 
-window.addEventListener("resize",function(){
+window.addEventListener("resize", function () {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 })

@@ -2,14 +2,27 @@
 
 //Intro TimeLine//
 
-tl.to(whiteLine, 1, {rotation:180, transformOrigin: "50% 50%"} )
-  .to(pinkRect, 1, {x: -564})
-  .to(lefty, 2, {x:-60})
-  .to(lefty, 1, {x:2})
-  .to(righty, 2, {x:60})
-  .to(righty, 1, {x:-0.5})
-  .to(greetings, 5, {
-      css: {
+tl.to(whiteLine, 1, {
+        rotation: 180,
+        transformOrigin: "50% 50%"
+    })
+    .to(pinkRect, 1, {
+        x: -564
+    })
+    .to(lefty, 2, {
+        x: -60
+    })
+    .to(lefty, 1, {
+        x: 2
+    })
+    .to(righty, 2, {
+        x: 60
+    })
+    .to(righty, 1, {
+        x: -0.5
+    })
+    .to(greetings, 5, {
+        css: {
             className: ".happy_new_year_finish"
         },
     })
@@ -20,15 +33,6 @@ tl.to(whiteLine, 1, {rotation:180, transformOrigin: "50% 50%"} )
 //   .to(lefty, 1, {x:8})
 // tl2.to(righty, 2, {x:150})
 //     .to(righty, 1, {x:-8})
-
-
-// tl2.to(righty, 2, {x:150})
-//     .to(righty, 1, {x:-8})
-// TweenMax.to(lefty, 2, {
-//     x: -1600,
-//     rotation: 360,
-//     // fill: "blue"
-// });
 
 
 //ACCESS//
@@ -202,7 +206,7 @@ TweenMax.to(L6, 5, {
 //>//
 
 TweenMax.to(righty, 6.5, {
-//     // x: 1600,
+    //     // x: 1600,
     //     rotation: Infinity0,
     // fill: "blue"
 });
