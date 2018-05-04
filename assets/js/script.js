@@ -1,3 +1,4 @@
+
 $('svg').addClass('animate');
 
 $('svg.animate path').each(function(){
