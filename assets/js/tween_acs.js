@@ -4,10 +4,15 @@
 
 tl.to(whiteLine, 1, {rotation:180, transformOrigin: "50% 50%"} )
   .to(pinkRect, 1, {x: -564})
-  .to(lefty, 2, {x:-150})
-  .to(lefty, 1, {x:8})
-  .to(righty, 2, {x:150})
-  .to(righty, 1, {x:-8})
+  .to(lefty, 2, {x:-60})
+  .to(lefty, 1, {x:2})
+  .to(righty, 2, {x:60})
+  .to(righty, 1, {x:-0.5})
+  .to(greetings, 5, {
+      css: {
+            className: ".happy_new_year_finish"
+        },
+    })
 
 
 //Intro classiquy//
